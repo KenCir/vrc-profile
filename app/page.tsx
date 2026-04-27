@@ -1,6 +1,6 @@
-import HeroSection from "@/components/HeroSection";
-import BioCard from "@/components/BioCard";
-import SnsLinks from "@/components/SocialLinks";
+import HeroSection from '@/components/HeroSection';
+import BioCard from '@/components/BioCard';
+import SnsLinks from '@/components/SocialLinks';
 
 export default function Home() {
   return (

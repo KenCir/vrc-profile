@@ -1,15 +1,7 @@
-import CyberCard from "./CyberCard";
-import { siX, siVrchat } from "simple-icons";
+import CyberCard from './CyberCard';
+import { siX, siVrchat } from 'simple-icons';
 
-function SocialItem({
-  href,
-  icon,
-  label,
-}: {
-  href: string;
-  icon: string;
-  label: string;
-}) {
+function SocialItem({ href, icon, label }: { href: string; icon: string; label: string }) {
   return (
     <a
       key={label}
@@ -30,11 +22,7 @@ export default function SocialLinks() {
   return (
     <CyberCard label="// Links">
       <div className="flex flex-wrap gap-2">
-        <SocialItem
-          href="https://twitter.com/Ken_Cir_VRC"
-          icon={siX.path}
-          label="X (Twitter)"
-        />
+        <SocialItem href="https://twitter.com/Ken_Cir_VRC" icon={siX.path} label="X (Twitter)" />
         <SocialItem
           href="https://vrchat.com/home/user/usr_3974abeb-a05d-4e4b-9d09-0a18729fe908"
           icon={siVrchat.path}

@@ -1,9 +1,9 @@
-import CyberCard from "./CyberCard";
+import CyberCard from './CyberCard';
 
 export default function BioCard() {
   return (
     <CyberCard label="// About me">
-      <p className="whitespace-pre-line font-mono text-sm leading-relaxed text-cyan-100/70">
+      <p className="font-mono text-sm leading-relaxed whitespace-pre-line text-cyan-100/70">
         24/05/22くらいに始めて、最近フルトラになりました。
         <br />
         けんちるです。よろしくお願いします。
