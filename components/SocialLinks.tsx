@@ -22,11 +22,16 @@ export default function SocialLinks() {
   return (
     <CyberCard label="// Links">
       <div className="flex flex-wrap gap-2">
-        <SocialItem href="https://twitter.com/Ken_Cir_VRC" icon={siX.path} label="X (Twitter)" />
         <SocialItem
           href="https://vrchat.com/home/user/usr_3974abeb-a05d-4e4b-9d09-0a18729fe908"
           icon={siVrchat.path}
           label="VRChat"
+        />
+        <SocialItem href="https://twitter.com/Ken_Cir_VRC" icon={siX.path} label="Twitter（旧X）" />
+        <SocialItem
+          href="https://x.com/Ken_Cir_VRC/status/2061762762188153206"
+          icon={siX.path}
+          label="自己紹介カード"
         />
       </div>
     </CyberCard>

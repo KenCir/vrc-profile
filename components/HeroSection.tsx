@@ -32,7 +32,7 @@ export default function HeroSection() {
             className="mb-1 font-['Orbitron'] text-3xl font-bold tracking-widest text-white"
             style={{ textShadow: '0 0 24px rgba(29,198,211,0.6)' }}
           >
-            Ken_Cir（けんちる）
+            けんちる
           </h1>
           <p className="mb-3 font-mono text-sm text-cyan-300/70">VRC ID: Ken_Cir（けんちる）</p>
         </div>
