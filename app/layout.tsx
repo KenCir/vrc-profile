@@ -14,8 +14,8 @@ const orbitron = Orbitron({
 });
 
 export const metadata: Metadata = {
-  title: 'Ken_Cir VRChat Profile',
-  description: 'Ken_Cir VRChat Self-Introduction Page',
+  title: 'けんちる / Ken_Cir VRChat Profile',
+  description: 'けんちる（Ken_Cir）のVRChat自己紹介ページです。',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

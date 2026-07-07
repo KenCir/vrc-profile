@@ -2,26 +2,21 @@
 
 @layer base {
   body {
-    font-family: var(--font-share-tech-mono), monospace;
+    font-family:
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      'Segoe UI',
+      sans-serif;
   }
 }
 
 @layer utilities {
+  .font-mono {
+    font-family: var(--font-share-tech-mono), monospace;
+  }
+
   .font-orbitron {
     font-family: var(--font-orbitron), monospace;
-  }
-}
-
-/* Scan line animation */
-.scan-line {
-  animation: scan 4s linear infinite;
-}
-
-@keyframes scan {
-  0% {
-    top: 0%;
-  }
-  100% {
-    top: 100%;
   }
 }
